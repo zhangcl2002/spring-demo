@@ -25,6 +25,7 @@ public class RedisDemoApplication {
 	    //user.test();
 	    ValueOperations<String, String> valueOp = redisTemplate.opsForValue();
 	    
+	    
 	    valueOp.set("name", name);
        // String ret = valueOp.get("hello");
 	    
