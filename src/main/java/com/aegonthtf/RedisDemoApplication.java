@@ -3,7 +3,7 @@ package com.aegonthtf;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.data.redis.core.RedisTemplate;
+//import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.data.redis.core.StringRedisTemplate;
 import org.springframework.data.redis.core.ValueOperations;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -14,8 +14,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class RedisDemoApplication {
 	
-	@Autowired
-	private User user;
+	//@Autowired
+	//private User user;
 	@Autowired
 	private StringRedisTemplate redisTemplate;
 	
